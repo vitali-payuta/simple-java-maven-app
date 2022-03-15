@@ -8,7 +8,11 @@ package com.mycompany.app;
 
 public class App
 {
-   
+    public void infiniteLoopUsingWhile() {
+        while (true) {
+        // do something
+        }
+    } 
     
     private final String message = "Hello World!";
 
