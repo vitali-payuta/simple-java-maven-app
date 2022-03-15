@@ -3,9 +3,10 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-boolean valid = true;
-while(valid) {
-  System.out.println("Hi");
+public void infiniteLoopUsingWhile() {
+    while (true) {
+        // do something
+    }
 }
 
 
