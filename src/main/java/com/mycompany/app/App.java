@@ -3,16 +3,17 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-public void infiniteLoopUsingWhile() {
-    while (true) {
-        // do something
-    }
-}
+
 
 
 public class App
 {
-
+    public void infiniteLoopUsingWhile() {
+        while (true) {
+        // do something
+        }
+    }
+    
     private final String message = "Hello World!";
 
     public App() {}
