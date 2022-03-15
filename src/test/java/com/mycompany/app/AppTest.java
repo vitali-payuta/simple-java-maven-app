@@ -28,7 +28,7 @@ public class AppTest
             fail("Construction failed.");
         }
     }
-/*
+    
     @Test
     public void testAppMain()
     {
@@ -38,7 +38,7 @@ public class AppTest
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }
-    } */
+    } 
 
     @After
     public void cleanUpStreams() {
