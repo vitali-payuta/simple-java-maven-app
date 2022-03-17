@@ -10,7 +10,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>hw5_repo</id>
-      <url>http://172.17.0.1:8081/repository/hw5_repo/</url>
+      <url>http://172.17.0.1:8081/repository/hw5_proxy/</url>
     </snapshotRepository>
   </distributionManagement>
   <dependencies>
