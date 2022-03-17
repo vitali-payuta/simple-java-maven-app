@@ -67,7 +67,7 @@
               <rules>
                 <requireMavenVersion>
                   <version>[3.5.4,)</version>
-                </requireMavenVersion>
+                </requireMavenVersion>c
               </rules>
             </configuration>
           </execution>
@@ -81,5 +81,9 @@
         <name>hw5test</name>
         <url>http://172.17.0.1:8081/repository/hw5test/</url>
      </repository>
+     <snapshotRepository>
+      <id>NexusRepo</id>
+      <url>http://172.17.0.1:8081/repository/maven-snapshots/</url>
+     </snapshotRepository>
   </distributionManagement>
 </project>
