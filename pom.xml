@@ -43,7 +43,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>nexus</serverId>
-          <nexusUrl>http://172.17.0.1:8081/nexus</nexusUrl>
+          <nexusUrl>http://172.17.0.1:8081</nexusUrl>
         </configuration>
       </plugin>
       <plugin>
