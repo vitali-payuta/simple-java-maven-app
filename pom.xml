@@ -42,7 +42,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>nexus</serverId>
-          <nexusUrl>http://172.17.0.1:8081/</nexusUrl>
+          <nexusUrl>http://172.17.0.1:8081/repository/hw5_proxy/</nexusUrl>
         </configuration>
       </plugin>
       <plugin>
