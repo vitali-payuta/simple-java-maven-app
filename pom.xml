@@ -78,8 +78,8 @@
   <distributionManagement>
      <repository> 
         <id>HWnexus</id>
-        <name>maven-releases</name>
-        <url>http://172.17.0.1:8081/repository/maven-releases/</url>
+        <name>hw5test</name>
+        <url>http://172.17.0.1:8081/repository/hw5test/</url>
      </repository>
      <snapshotRepository>
       <id>HWnexus</id>
