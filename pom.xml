@@ -8,10 +8,10 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <snapshotRepository>
+    <repository>
       <id>hw5_repo</id>
       <url>http://172.17.0.1:8081/repository/hw5_proxy/</url>
-    </snapshotRepository>
+    </repository>
   </distributionManagement>
   <dependencies>
     <dependency>
@@ -42,7 +42,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>nexus</serverId>
-          <nexusUrl>http://172.17.0.1:8081/repository/hw5_proxy/</nexusUrl>
+          <nexusUrl>http://172.17.0.1:8081/</nexusUrl>
         </configuration>
       </plugin>
       <plugin>
