@@ -81,9 +81,5 @@
         <name>hw5test</name>
         <url>http://172.17.0.1:8081/repository/hw5test/</url>
      </repository>
-     <snapshotRepository>
-      <id>HWnexus</id>
-      <url>http://172.17.0.1:8081/repository/maven-snapshots/</url>
-     </snapshotRepository>
   </distributionManagement>
 </project>
