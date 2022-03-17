@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <distributionManagement>
     <repository>
-      <id>hw5_repo</id>
+      <id>nexus</id>
       <url>http://172.17.0.1:8081/repository/hw5_proxy/</url>
     </repository>
   </distributionManagement>
