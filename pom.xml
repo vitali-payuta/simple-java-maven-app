@@ -8,11 +8,11 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <repository>
+    <snapshotRepository>
       <id>nexus</id>
-      <name>maven-releases</name>
-      <url>http://172.17.0.1:8081/repository/maven-releases/</url>
-    </repository>
+      <name>maven-snapshot</name>
+      <url>http://172.17.0.1:8081/repository/maven-snapshot/</url>
+    </snapshotRepository>
   </distributionManagement>
   <dependencies>
     <dependency>
