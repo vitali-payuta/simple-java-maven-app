@@ -8,11 +8,11 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <snapshotRepository>
+    <repository>
       <id>nexus</id>
-      <name>maven-snapshot</name>
-      <url>http://172.17.0.1:8081/repository/maven-snapshot/</url>
-    </snapshotRepository>
+      <name>hw5_proxy</name>
+      <url>http://172.17.0.1:8081/repository/hw5_proxy/</url>
+    </repository>
   </distributionManagement>
   <dependencies>
     <dependency>
@@ -26,16 +26,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
