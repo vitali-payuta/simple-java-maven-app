@@ -78,8 +78,8 @@
   <distributionManagement>
      <repository> 
         <id>HWnexus</id>
-        <name>hw5_proxy</name>
-        <url>http://172.17.0.1:8081/repository/hw5_proxy/</url>
+        <name>maven-releases</name>
+        <url>http://172.17.0.1:8081/repository/maven-releases/</url>
      </repository>
      <snapshotRepository>
       <id>HWnexus</id>
